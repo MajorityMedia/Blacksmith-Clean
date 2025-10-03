@@ -37,9 +37,15 @@
       height: 100%;
       background-image: url('https://raw.githubusercontent.com/MajorityMedia/blacksmith-face/main/Blacksmith%20Face%20Clean.png');
       background-size: cover;
-      background-position: center;
+      background-position: center 40%;
       filter: brightness(0.65);
       z-index: 1;
+    }
+    
+    @media (max-width: 768px) {
+      .hero-bg {
+        background-position: center 30%;
+      }
     }
     
     .content {
